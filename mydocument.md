@@ -300,7 +300,8 @@ When the Jenkins is ready page appears, click Start using Jenkins.
 
 Now you can see the home page of Jenkins:
 
-![Alt text](image-3.png)
+![image](https://github.com/kshitizShri929/Jenkins/assets/100191247/b2891ed4-dcb3-41e9-a9e8-cf55d15e098a)
+
 
 ## Configuration Panal
 
@@ -311,10 +312,12 @@ Now you can see the home page of Jenkins:
 - Manage Jenkins
 
 New item: Click on this option and create a new job.
-![Alt text](image-4.png)
+![image](https://github.com/kshitizShri929/Jenkins/assets/100191247/cf4bf940-912a-4313-a9f4-2ddadebc8f2e)
+
 
 People: You can see about Jenkins users.
-![Alt text](image-5.png)
+![image](https://github.com/kshitizShri929/Jenkins/assets/100191247/de09dc31-cfac-4222-a204-7b3284e6238a)
+
 
 Build history: To see record of all the times your software project was built and tested.
 
@@ -325,6 +328,8 @@ Manage Jenkins: Jenkins administrative tasks can be performed from the Manage Je
 ## Create first job
 
 Click on "New Item" and enter a name for job and Select the "Freestyle project" and click on "ok" then show the configuration General setting option schroll down and click on "build step" and select the "excecute shell" option and create the simple job like echo "hello world" then apply and save. 
+![Screenshot from 2024-02-24 11-59-46](https://github.com/kshitizShri929/Jenkins/assets/100191247/5a495a95-ba80-44f1-aa8e-f68614cdd0fc)
+
 
 If you want to see the output of these command go to terminal and follow these step.
 ```bash
