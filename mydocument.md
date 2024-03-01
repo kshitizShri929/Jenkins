@@ -74,7 +74,7 @@ Recommended hardware configuration for a small team:
 Software requirements:
 - Java
 
-## Intallation of Jenkins
+## Installation of Jenkins
 
 ## Step1 Install Java
 
@@ -143,9 +143,11 @@ echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc]
 
 
 ## Step4 Update System 
+go to etc/apt/
 
 ```bash
-shrikant@shrikant:/etc/apt$ sudo apt-get update
+
+ sudo apt-get update
 ```
 **Output**
 ```
@@ -179,7 +181,7 @@ N: See apt-secure(8) manpage for repository creation and user configuration deta
 ```
 ## Step5 Install Jenkins
 ```
-shrikant@shrikant:/etc/apt$ sudo apt-get install jenkins -y
+sudo apt-get install jenkins -y
 ```
 ```
 Reading package lists... Done
@@ -216,7 +218,7 @@ Processing triggers for man-db (2.10.2-1) ...
 to check jenkins ditectory
 
 ```bash
-shrikant@shrikant:/etc/apt$ which jenkins
+which jenkins
 ```
  **Output**
 ```
@@ -227,7 +229,7 @@ shrikant@shrikant:/etc/apt$ which jenkins
 
 ```bash
 
-shrikant@shrikant:/etc/apt$ systemctl status jenkins
+ systemctl status jenkins
 
 ```
 ## Output
