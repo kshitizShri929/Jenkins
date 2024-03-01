@@ -261,7 +261,7 @@ Feb 21 17:04:42 shrikant jenkins[134594]: 2024-02-21 11:34:42.794+0000 [id=61]  
 
 Now you can access the Jenkins web interface by opening a web browser and navigating to http:localhost:8080 and open Jenkins with password which created when you are installing Jenkins.
 
-![Alt text](image.png)
+![Screenshot from 2024-02-21 17-14-10](https://github.com/kshitizShri929/Jenkins/assets/100191247/2fbcd548-5ec2-4cdd-b1f0-048b9217d9d2)
 
 
 ```bash
@@ -287,11 +287,14 @@ After customizing Jenkins with plugins, Jenkins asks you to create your first ad
 
 When the Create First Admin User page appears, specify the details for your administrator user in the respective fields and click Save and continue.
 
-![Alt text](image-1.png)
+![Screenshot from 2024-02-24 11-37-30](https://github.com/kshitizShri929/Jenkins/assets/100191247/3532a5f1-e4f0-48ab-b25b-cffba6257db8)
+
 
 When the Jenkins is ready page appears, click Start using Jenkins.
 
-![Alt text](image-2.png)
+
+![Screenshot from 2024-02-24 11-41-38](https://github.com/kshitizShri929/Jenkins/assets/100191247/80f96948-3c53-421d-9afa-56f677471cb0)
+
 
 ## Jenkins Dashboard
 
