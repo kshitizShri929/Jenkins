@@ -358,7 +358,7 @@ demoproject
 
 ```
 
-## Refernces:
+## References:
 
 - https://www.jenkins.io/doc/book/installing/
 - https://hackr.io/blog/what-is-jenkins
