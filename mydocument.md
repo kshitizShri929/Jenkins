@@ -6,7 +6,7 @@
 
 [Prerequisites](#prerequisites)
 
-[Steps for Jenkins installation](#Steps-for-jenkins-installation)
+[Steps for installation jenkins](#Steps-for-installation-jenkins)
 
 - [Install Java](#step1-install-java)
 - [Download Jenkins Repository key](#step-2-download-jenkins-repository-key)
@@ -25,26 +25,7 @@
 
 [Create first job](#create-first-job)
 
-[Reference](#reference)
-## Table of Contents
-
-- [Jenkins](#jenkins)
-- [Installation of Jenkins](#installation-of-jenkins)
-  - [Prerequisites](#prerequisites)
-  - [Steps for Jenkins installation](#steps-for-jenkins-installation)
-    - [Install Java](#step1-install-java)
-    - [Download Jenkins Repository key](#step-2-download-jenkins-repository-key)
-    - [Add Jenkins Repository to APT Sources](#step-3-add-jenkins-repository-to-apt-sources)
-    - [Update System](#step4-update-system)
-    - [Install Jenkins](#step5-install-jenkins)
-    - [Jenkins Status](#step-6-jenkins-status)
-- [Access Jenkins](#access-jenkins)
-- [Creating the first administrator user](#creating-the-first-administrator-user)
-- [Jenkins Dashboard](#jenkins-dashboard)
-- [Configuration Panel](#configuration-panel)
-- [Create first job](#create-first-job)
-- [Reference](#reference)
-
+[References](#references)
 
 
 
