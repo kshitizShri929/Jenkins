@@ -79,7 +79,7 @@ Recommended hardware configuration for a small team:
 Software requirements:
 - Java
 
-##  Steps for Installation of Jenkins
+##  Steps for installation of Jenkins
 
 ## Step1 Install Java
 
