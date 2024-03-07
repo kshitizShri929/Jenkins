@@ -6,7 +6,7 @@
 
 [Prerequisites](#prerequisites)
 
-[Steps for installation jenkins](#Steps-for-installation-jenkins)
+[Steps for installation jenkins](#steps-for-installation-jenkins)
 
 - [Install Java](#step1-install-java)
 - [Download Jenkins Repository key](#step-2-download-jenkins-repository-key)
