@@ -4,7 +4,8 @@
 
 [Prerequisites](#prerequisites)
 
-[Installation of Jenkins](#installation-of-jenkins)
+[Steps for Jenkins installation](#steps-for-jenkins-installation)
+
 - [Install Java](#step1-install-java)
 - [Download Jenkins Repository key](#step-2-download-jenkins-repository-key)
 - [Add Jenkins Repository to APT Sources](#step-3-add-jenkins-repository-to-apt-sources)
@@ -76,7 +77,7 @@ Recommended hardware configuration for a small team:
 Software requirements:
 - Java
 
-## Installation of Jenkins
+##  Steps for Installation of Jenkins
 
 ## Step1 Install Java
 
