@@ -336,25 +336,30 @@ Click on "New Item" and enter a name for job and Select the "Freestyle project" 
 
 If you want to see the output of these command go to terminal and follow these step.
 ```bash
+cd var/liv/jenkins
+```
+**Output**
 
 shrikant@shrikant:~/Jenkins$ cd var/lib/jenkins/
 
-```
-bash: cd: var/lib/jenkins/: No such file or directory
-shrikant@shrikant:~/Jenkins$ cd /var/lib/jenkins/
-```
 Now go to workspace directory.
-```bash 
-shrikant@shrikant:/var/lib/jenkins$ cd workspace
+
+```bash
+ cd workspace
+ ls
 ```
 
 **Output**
 
-```bash 
+shrikant@shrikant:/var/lib/jenkins/workspace$ 
+
 shrikant@shrikant:/var/lib/jenkins/workspace$ ls
+
 demoproject
 
 ```
+
+
 
 ## References:
 
