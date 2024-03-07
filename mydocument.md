@@ -2,11 +2,11 @@
 ## Table Of Contents
 [Jenkins](#jenkins)
 
-[# Installation of jenkins](#Installation-of-jenkins)
+[# Installation of Jenkins](#Installation-of-jenkins)
 
 [Prerequisites](#prerequisites)
 
-[Steps for Jenkins installation](#steps-for-jenkins-installation)
+[Steps for Jenkins installation](#Steps-for-jenkins-installation)
 
 - [Install Java](#step1-install-java)
 - [Download Jenkins Repository key](#step-2-download-jenkins-repository-key)
