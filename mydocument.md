@@ -6,7 +6,7 @@
 
 [Prerequisites](#prerequisites)
 
-[Steps for installation jenkins](#steps-for-installation-jenkins)
+[Steps for installation Jenkins](#steps-for-installation-jenkins)
 
 - [Install Java](#step1-install-java)
 - [Download Jenkins Repository key](#step-2-download-jenkins-repository-key)
@@ -80,6 +80,8 @@ Software requirements:
 - Java
 
 ##  Steps for installation of Jenkins
+
+There are six steps which you have fallow to install jenkins.
 
 ## Step1 Install Java
 
