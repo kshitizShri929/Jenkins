@@ -152,7 +152,7 @@ echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] \
 
 ```
 
-** Output**
+**Output**
 ```
 shrikant@shrikant:~$ echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] 
 >   https://pkg.jenkins.io/debian-stable binary/ | sudo tee 
