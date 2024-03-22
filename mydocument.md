@@ -6,8 +6,6 @@
 
 [Prerequisites](#prerequisites)
 
-
-
  [Install Java](#step1-install-java)
  
  [Download Jenkins Repository key](#step-2-download-jenkins-repository-key)
@@ -88,7 +86,7 @@ Software requirements:
 
 There are six steps which you have fallow to install jenkins.
 
-## Step1 Install Java
+## Step 1 Install Java
 
 
 ```bash 
@@ -158,7 +156,7 @@ shrikant@shrikant:~$ echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc
 >   https://pkg.jenkins.io/debian-stable binary/ | sudo tee 
 >   /etc/apt/sources.list.d/jenkins.list > /dev/null
 ```
-## Step4 Update System 
+## Step 4 Update System 
 go to etc/apt/
 
 ```bash
