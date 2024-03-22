@@ -195,7 +195,7 @@ N: Updating from such a repository can't be done securely, and is therefore disa
 N: See apt-secure(8) manpage for repository creation and user configuration details.
 
 ```
-## Step5 Install Jenkins
+## Step 5 Install Jenkins
 ```
 sudo apt-get install jenkins -y
 ```
