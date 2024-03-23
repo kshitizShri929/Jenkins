@@ -114,6 +114,18 @@ openjdk 11.0.21 2023-10-17
 OpenJDK Runtime Environment (build 11.0.21+9-post-Ubuntu-0ubuntu122.04)
 OpenJDK 64-Bit Server VM (build 11.0.21+9-post-Ubuntu-0ubuntu122.04, mixed mode, sharing)
 ```
+here I am explain that command I used :
+
+sudo: This command is used to execute with superuser privileges.
+
+apt-get:This is the package management command. It is used for handling packages—installing, updating, and removing them.
+
+install: This is an argument for the apt-get command, specifying that we want to install a package.
+
+openjdk-11-jdk: This is the name of the package that we want to install. In this case, it is the OpenJDK 11 Java Development Kit.
+
+
+
 
 ## Step 2 Download Jenkins Repository key:
 ```bash
@@ -138,7 +150,13 @@ Saving to: ‘/usr/share/keyrings/jenkins-keyring.asc’
 shrikant@shrikant:~$
 
 ```
-**Note :**
+
+sudo: This is used to execute the following command with superuser privileges.
+
+wget: This command is used to download files from the internet.
+
+-O /usr/share/keyrings/jenkins-keyring.asc: In this case, the file will be saved as jenkins-keyring.asc in the /usr/share/keyrings/ directory.
+
 https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key: This is the URL from which wget will download the file. It's the Jenkins GPG key file (jenkins.io-2023.key) needed for package verification.
 
 ## Step 3 Add Jenkins Repository to APT Sources
@@ -193,6 +211,13 @@ N: Updating from such a repository can't be done securely, and is therefore disa
 N: See apt-secure(8) manpage for repository creation and user configuration details.
 
 ```
+sudo: This command is used to execute with superuser privileges.
+
+apt-get:This is the package management command. It is used for handling packages—installing, updating, and removing them.
+
+update: This command is used to update the system.
+
+
 ## Step 5 Install Jenkins
 ```
 sudo apt-get install jenkins -y
@@ -227,6 +252,16 @@ Created symlink /etc/systemd/system/multi-user.target.wants/jenkins.service → 
 Processing triggers for man-db (2.10.2-1) ...
 
 ```
+sudo: This command is used to execute with superuser privileges.
+
+apt-get:This is the package management command. It is used for handling packages—installing, updating, and removing them.
+
+install: This is an argument for the apt-get command, specifying that we want to install a package.
+
+jenkins: This is name of package.
+
+-y: yes
+
 ## check Jenkins
 
 to check jenkins ditectory
@@ -271,6 +306,14 @@ Feb 21 17:04:40 shrikant systemd[1]: Started Jenkins Continuous Integration Serv
 Feb 21 17:04:42 shrikant jenkins[134594]: 2024-02-21 11:34:42.793+0000 [id=61]        INFO        h.m.DownloadService$Downloadable#load: Obtained the updated data file for hud>
 Feb 21 17:04:42 shrikant jenkins[134594]: 2024-02-21 11:34:42.794+0000 [id=61]        INFO        hudson.util.Retrier#start: Performed the action check updates server successfully
 ```
+systemctl: this command is used to control and query the state of the systemd system and service manager.
+
+status: This is an argument or sub-command for systemctl. When used with 'systemctl' It displays the current status and some additional information about a specified service.
+
+jenkins: This is the name of the service you are checking the status for.
+
+
+
 ## Access Jenkins
 
 Now you can access the Jenkins web interface by opening a web browser and navigating to http:localhost:8080 and open Jenkins with password which created when you are installing Jenkins.
