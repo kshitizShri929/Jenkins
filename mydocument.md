@@ -108,7 +108,8 @@ To check java version
 java --version
 ```
 **Output**
-```bashjava --version
+```bash
+java --version
 shrikant@shrikant:~$ java --version
 openjdk 11.0.21 2023-10-17
 OpenJDK Runtime Environment (build 11.0.21+9-post-Ubuntu-0ubuntu122.04)
@@ -124,7 +125,7 @@ install: This is an argument for the apt-get command, specifying that we want to
 
 openjdk-11-jdk: This is the name of the package that we want to install. In this case, it is the OpenJDK 11 Java Development Kit.
 
-
+java --version: check java version which  i have install.
 
 
 ## Step 2 Download Jenkins Repository key:
